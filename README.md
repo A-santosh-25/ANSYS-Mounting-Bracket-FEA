@@ -4,7 +4,7 @@ Static Structural and Modal Analysis of a Mechanical Mounting Bracket using ANSY
 
 
 
-\## 1. Project Overview
+\1. Project Overview
 
 
 
@@ -26,7 +26,7 @@ Two major analyses were performed:
 
 
 
-\## 2. Software and Tools
+\ 2. Software and Tools
 
 
 
@@ -38,7 +38,7 @@ Two major analyses were performed:
 
 
 
-\## 3. CAD Model
+\ 3. CAD Model
 
 
 
@@ -54,11 +54,7 @@ The model was prepared as a solid body for finite element analysis.
 
 
 
-!\[CAD Model](CAD/Bracket\_Isometric.png)
-
-
-
-\## 4. Material Properties
+\4. Material Properties
 
 
 
@@ -80,7 +76,7 @@ The model uses Structural Steel.
 
 
 
-\## 5. Static Structural Analysis
+\5. Static Structural Analysis
 
 
 
@@ -88,7 +84,7 @@ Static Structural Analysis was performed to investigate the response of the brac
 
 
 
-\### Boundary Conditions
+\Boundary Conditions
 
 
 
@@ -100,7 +96,7 @@ Static Structural Analysis was performed to investigate the response of the brac
 
 
 
-\### Meshing
+\Meshing
 
 
 
@@ -108,15 +104,11 @@ The geometry was discretized using a finite element mesh in ANSYS Mechanical.
 
 
 
-\### Results
+\Results
 
 
 
-\#### Equivalent von Mises Stress
-
-
-
-!\[Von Mises Stress](Static\_Structural/03\_Von\_Mises\_Stress.png)
+\Equivalent von Mises Stress
 
 
 
@@ -124,11 +116,7 @@ Maximum equivalent stress: 46.627 MPa.
 
 
 
-\#### Total Deformation
-
-
-
-!\[Total Deformation](Static\_Structural/04\_Total\_Deformation.png)
+\Total Deformation
 
 
 
@@ -136,11 +124,7 @@ Maximum total deformation: 1.0854e-5 mm.
 
 
 
-\#### Equivalent Elastic Strain
-
-
-
-!\[Equivalent Strain](Static\_Structural/05\_Equivalent\_Strain.png)
+\Equivalent Elastic Strain
 
 
 
@@ -148,7 +132,7 @@ Maximum equivalent elastic strain: 0.0003415.
 
 
 
-\## 6. Modal Analysis
+\6. Modal Analysis
 
 
 
@@ -178,7 +162,7 @@ The first six natural frequencies obtained are:
 
 
 
-\### Mode Shapes
+\Mode Shapes
 
 
 
@@ -186,7 +170,7 @@ The mode shapes represent the relative deformation patterns associated with the 
 
 
 
-\## 7. Engineering Interpretation
+\7. Engineering Interpretation
 
 
 
@@ -202,7 +186,7 @@ The results are dependent on the idealized geometry, material properties, mesh a
 
 
 
-\## 8. Project Files
+\8. Project Files
 
 
 
@@ -220,7 +204,7 @@ The results are dependent on the idealized geometry, material properties, mesh a
 
 
 
-\## 9. Conclusion
+\9. Conclusion
 
 
 
